@@ -11,7 +11,7 @@ $get_mngz_backlink_monitor_setting = get_option('mngz_backlink_monitor_setting_o
 $number_check = $get_mngz_backlink_monitor_setting['number_check_cron'];
 $number_days = $get_mngz_backlink_monitor_setting['day_check_cron'];
 
-$links = $wpdb->get_results("SELECT * ,DATEDIFF(NOW(),update_date) as diff FROM {$wpdb->prefix}mngz_backlinks WHERE DATEDIFF(NOW(),update_date) >= {$number_days} LIMIT {$number_check}",ARRAY_A);
+$links = $wpdb->get_results("SELECT * ,DATEDIFF(NOW(),update_date) as diff FROM {$wpdb->prefix}mngz_backlinks WHERE DATEDIFF(NOW(),update_date) >= {$number_days} OR update_date = add_date LIMIT {$number_check}",ARRAY_A);
 // echo"<pre>";
 // print_r($links );
 // print_r($wpdb->last_query);

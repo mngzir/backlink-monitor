@@ -1,3 +1,8 @@
+# دانلود افزونه مانیتور بکلینک
+جهت دانلود [اینجا](https://github.com/mngzir/backlink-monitor/releases/download/v1/backlink-monitor-v1.0.zip "اینجا") کلیک کنید
+
+[دانلود افزونه مانیتور بکلینک](https://github.com/mngzir/backlink-monitor/releases/download/v1/backlink-monitor-v1.0.zip "دانلود افزونه مانیتور بکلینک")
+
 # افزونه مانیتور بکلینک ها
 توسط این افزونه وردپرسی می توانید بکلینک ها و رپورتاژهای خود را مانیتور کنید.
 
